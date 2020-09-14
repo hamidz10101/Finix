@@ -1,0 +1,25 @@
+@media all (max-width:1240px){
+    body .btn-primary {
+        background: #E83B3E !important;
+        border: none;
+        padding: 15px 20px;
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+}
+@media (max-width:1205px){
+    .apply-now-step-timeline ul::before {
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: #e83b3e;
+        height: 87%;
+        width: 1px;
+    }
+    .header_social {
+        padding-left: 50px;
+    }
+}
